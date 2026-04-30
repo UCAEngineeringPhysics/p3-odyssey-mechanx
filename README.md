@@ -6,7 +6,8 @@
 ### Mechanical Design
 
 ### 3-Minute Thesis
-![Poster](images/odyssey_map.png)
+![Poster](Blue Beige Brown Professional Collage Vision Board Planner Animated Presentation.pdf)
+
 ### Hardware Installation Guide
 
 ## Software Usage Instructions
