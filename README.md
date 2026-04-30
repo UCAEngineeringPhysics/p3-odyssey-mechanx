@@ -6,7 +6,7 @@
 ### Mechanical Design
 
 ### 3-Minute Thesis
-
+![Poster](images/odyssey_map.png)
 ### Hardware Installation Guide
 
 ## Software Usage Instructions
