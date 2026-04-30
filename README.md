@@ -6,7 +6,7 @@
 ### Mechanical Design
 
 ### 3-Minute Thesis
-![Poster](Blue Beige Brown Professional Collage Vision Board Planner Animated Presentation.pdf)
+![Poster](Poster)
 
 ### Hardware Installation Guide
 
