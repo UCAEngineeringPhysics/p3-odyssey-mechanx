@@ -5,6 +5,8 @@
 
 ### Mechanical Design
 
+### 3-Minute Thesis
+
 ### Hardware Installation Guide
 
 ## Software Usage Instructions
