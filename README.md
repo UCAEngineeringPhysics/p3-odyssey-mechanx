@@ -6,7 +6,7 @@
 ### Mechanical Design
 
 ### 3-Minute Thesis
-![Poster](Poster)
+![Poster](PosterP3.pdf)
 
 ### Hardware Installation Guide
 
