@@ -5,6 +5,8 @@
 
 ### Mechanical Design
 
+![CasterWheel](PosterP3.png)
+
 ### 3-Minute Thesis
 ![Poster](PosterP3.png)
 
