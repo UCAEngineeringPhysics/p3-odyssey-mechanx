@@ -4,6 +4,8 @@
 ## Coffee Transportation Solution
 
 ### Mechanical Design
+![CupTech1](CupTech1.pdf)
+![CupTech2](CupTech2.pdf)
 ![CasterWheel](MotorAndCasterWheel1.png)
 ![CasterWheel](MotorAndCasterWheel2.png)
 
