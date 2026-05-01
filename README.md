@@ -4,8 +4,8 @@
 ## Coffee Transportation Solution
 
 ### Mechanical Design
-![CasterWheel](PMotorAndCasterWheel1.png)
-![CasterWheel](PMotorAndCasterWheel2.png)
+![CasterWheel](MotorAndCasterWheel1.png)
+![CasterWheel](MotorAndCasterWheel2.png)
 
 ### 3-Minute Thesis
 ![Poster](PosterP3.png)
