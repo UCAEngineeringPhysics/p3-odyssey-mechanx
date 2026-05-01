@@ -5,7 +5,7 @@
 
 ### Mechanical Design
 
-![CasterWheel](PosterP3.png)
+![CasterWheel](Project1_MotorAndCaster1 (1).png)
 
 ### 3-Minute Thesis
 ![Poster](PosterP3.png)
