@@ -1,0 +1,52 @@
+## Software Usage Instructions
+
+Setup dependency packages on Raspberry Pi
+1. Create a workspace directory
+mkdir -p ~/homer_ws/src
+2. Navigate into the source directory
+cd ~/homer_ws/src
+3. Clone the package repository
+git clone https://github.com/linzhanguca/homer_bringup.git
+4. Return to the workspace root
+cd ~/homer_ws
+5. Install missing dependencies using rosdep
+This ensures all system requirements are met before building
+rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+6. Build the workspace using colcon
+colcon build
+7. Source the workspace to register resources in the current terminal session
+source ~/homer_ws/install/local_setup.bash
+8. Add the sourcing command to your .bashrc
+This ensures the workspace is automatically available in every new terminal
+echo "source ~/homer_ws/install/local_setup.bash" >> ~/.bashrc
+
+Setup dependency packages on Server computer with Ubuntu
+1. Create the workspace directory structure
+mkdir -p ~/homer_ws/src
+2. Navigate into the source folder
+cd ~/homer_ws/src
+3. Clone the navigation package repository
+git clone https://github.com/linzhanguca/homer_navigation.git
+4. Navigate back to the root of the workspace
+cd ~/homer_ws
+5. Build all packages in the workspace using colcon
+colcon build
+6. Add the workspace setup to your bash configuration
+This ensures the package is found automatically in new terminals
+echo "source ~/homer_ws/install/local_setup.bash" >> ~/.bashrc
+7. Reload your .bashrc to apply changes to the current session
+source ~/.bashrc
+
+Launch nodes in rPi and Server to build map
+1. On rPi - ros2 launch homer_bringup homer.launch.py
+2. On server - ros2 launch homer_navigation create_map.launch.py
+3. Control on either platform with teleop_twist_keyboard or gamepad bluetooth link
+4. Rviz - locate the serialize map function and name map to the absolute path of the directory to be used for mapping
+5. Rebuild packages with - /homer_ws/ - colcon build - source/install/local_setup.bash
+6. Once again launch rPi homer.launch.py
+7. This time launch - ros2 launch homer_navigation navigation.launch.py - on server computer to begin autonomous navigation
+
+Optional - CLI
+1. mkdir -p ~/homer_ws/maps
+2. cd ~/homer_ws/maps
+3. ros2 run nav2_map_server map_saver_cli -f my_map
