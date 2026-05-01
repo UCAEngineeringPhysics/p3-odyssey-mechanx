@@ -11,5 +11,9 @@
 ![Poster](PosterP3.png)
 
 ### Hardware Installation Guide
-
+![StepByStep]()
+![StepByStep]()
+![StepByStep]()
+![StepByStep]()
+![StepByStep]()
 ## Software Usage Instructions
