@@ -1,0 +1,13 @@
+1. Create package in directory
+cd ~/homer_ws/src
+ros2 pkg create --build-type ament_python --license Apache-2.0 --maintainer-name "Your Name" --maintainer-email "your@email.com" homer_nav_node
+mkdir -p homer_nav_node/config homer_nav_node/maps
+
+2. Build Navigation Node - included node in main github
+
+3. Build setup with .xml descriptions - included node in main github
+
+4. Build the package
+cd ~/homer_ws
+colcon build --packages-select homer_nav_node
+source install/local_setup.bash
