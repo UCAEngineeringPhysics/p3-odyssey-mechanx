@@ -5,7 +5,7 @@
 
 ### Mechanical Design
 ![CupTech1](CupTech1-1.png)
-![CupTech2](CupTech2-1.png)
+![CupTech2](CupTech2-1[1].png)
 ![CasterWheel](MotorAndCasterWheel1.png)
 ![CasterWheel](MotorAndCasterWheel2.png)
 
